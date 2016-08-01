@@ -89,7 +89,7 @@ the redirect should be followed to the final page to determine the status. ``tim
 is the timeout of the request in seconds.
 
 The final piece is to setup an alarm which watches for errors when running the
-script. For this you need a new CloudWatch Alarm:
+script. For this you need a new CloudWatch Alarm (you may need to wait a bit for the new metrics to show up):
 
 - Metric: CloudPing Errors
 - Threshold:
